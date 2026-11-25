@@ -12,8 +12,8 @@ set -euo pipefail
 BRANCH="${DATA_BRANCH:-data}"
 WORKTREE="${DATA_WORKTREE:-.data-branch}"
 PUSH="${PUSH:-true}"
-export GIT_AUTHOR_NAME="JordyR1986" GIT_COMMITTER_NAME="JordyR1986"
-export GIT_AUTHOR_EMAIL="195427682+JordyR1986@users.noreply.github.com"
+export GIT_AUTHOR_NAME="JordyRdev" GIT_COMMITTER_NAME="JordyR1986"
+export GIT_AUTHOR_EMAIL="195427682+JordyRdev@users.noreply.github.com"
 export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 
 cleanup() {
